@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 37%;
+}
+p{
+    height: 100px;
+    width: 282px;
+    background-color: rgb(221, 231, 173);
+    margin-left: 25px;
+    border:solid 1px black;
+    margin-bottom: 3%;
+    text-align: left;
+}
+hr{
+    width: 297px;
+    margin-left: 17px;
+}
+.sous_contenaire{
+    background-color: rgb(226, 223, 219);
+    padding-bottom: 13%;
+    padding-top: 8%;
+    width: 330px;
+    border: solid 3px;
+    border-color: blue;
+    border-radius: 12px;
+}
+input{
+    height: 20px;
+    width: 50px;
+    margin: 1% 0.8%;
+    background-color: rgb(212, 212, 245);
+    color: blue;
+    border: solid 1px black;
+}
+.all_function{
+    margin: 3%;
+}
+.all_btnNombre{
+    margin: 3%;
+}
+.btn_nombre{
+    background-color: black;
+    color: white;
+}
+.btn_signe{
+    background-color: rgb(202, 195, 179);
+    color: black;
+}

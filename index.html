@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="Script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contenaire">
+        <div class="sous_contenaire">
+            <div class="resultats">
+                <p class="resultat"></p>
+            </div>
+            <hr>
+            <div class="all_function">
+                <div class="un_line_function">
+                    <input type="button" value="sin"class="sin">
+                    <input type="button" value="cos"class="cos" id="cos">
+                    <input type="button" value="tan"class="tan">
+                    <input type="button" value="ln" class="ln" >
+                    <input type="button" value="log"class="log">
+                </div>
+                <div class="deux_line_function">
+                    <input type="button" value="asin"class="asin">
+                    <input type="button" value="acos"class="acos">
+                    <input type="button" value="atan"class="atan">
+                    <input type="button" value="e^x" class="baseE_exposantX">
+                    <input type="button" value="10^x"class="baseDix_exposantX">
+                </div>
+                <div class="trois_line_function">
+                    <input type="button" value="x^y"class="baseX_exposantY">
+                    <input type="button" value="x^3"class="baseX_exposantTrois">
+                    <input type="button" value="x^2"class="baseX_exposantDeux">
+                    <input type="button" value="e" class="ep">
+                    <input type="button" value="pi"class="pi">
+                </div>
+                <div class="quatre_line_function">
+                    <input type="button" value="yx½"class="sin">
+                    <input type="button" value="3x½"class="cos">
+                    <input type="button" value="x½"class="tan">
+                    <input type="button" value="(" class="ln">
+                    <input type="button" value=")"class="log">
+                </div>
+                <div class="cinq_line_function">
+                    <input type="button" value="1/x"class="sin">
+                    <input type="button" value="n!"class="cos">
+                    <input type="button" value="%"class="tan">
+                    <input type="button" value="Ms" class="ln">
+                    <input type="button" value="#"class="log">
+                </div>
+            </div>
+            <hr>
+            <div class="all_btnNombre">
+                <div class="btns_ligne1">
+                    <input type="button" name="button" class="btn_nombre" value="1" id="un">
+                    <input type="button" name="button" class="btn_nombre" value="2" id="deux">
+                    <input type="button" name="button" class="btn_nombre" value="3" id="trois">
+                    <input type="button" name="button" class="btn_signe"  value="+" id="addition">
+                    <input type="button" name="button" class="btn_signe"  value="color" id="color">
+                </div>
+                <div class="btns_ligne2">
+                    <input type="button" name="button" class="btn_nombre" value="4" id="quatre">
+                    <input type="button" name="button" class="btn_nombre" value="5" id="cinq">
+                    <input type="button" name="button" class="btn_nombre" value="6" id="six">
+                    <input type="button" name="button" class="btn_signe" value="-"  id ="moins">
+                    <input type="button" name="button" class="btn_signe" value="on" id="on">
+                </div>
+                <div class="btns_ligne3">
+                    <input type="button" name="button" class="btn_nombre" value="7" id="sept">
+                    <input type="button" name="button" class="btn_nombre" value="8" id="huit">
+                    <input type="button" name="button" class="btn_nombre" value="9" id="neuf">
+                    <input type="button" name="button" class="btn_signe" value="x"  id="multiplication">
+                    <input type="button" name="button" class="btn_signe" value="off" id="off">
+                </div>
+                <div class="btns_ligne4">
+                    <input type="button" name="button" class="btn_signe" value="." id="point">
+                    <input type="button" name="button" class="btn_nombre" value="0" id="zero">
+                    <input type="button" name="button" class="btn_signe" value="=" id="egale">
+                    <input type="button" name="button" class="btn_signe" value="/" id="soustraction">
+                    <input type="button" name="button" class="btn_signe" value="sup" id="sup" onclick="document.querySelector('.resultat').textContent = '';">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
